@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",  // 基本目录设置为项目根目录
+      "paths": {
+        "@/*": ["src/*"]
+        // 根据需要添加更多别名的映射
+      },
+      "target": "es6",  // 设置目标语言级别
+      "jsx": "react-jsx"  // 设置JSX的转换方式，适用于 React 17+ 的自动引入
+    },
+    "include": [
+      "src/**/*"  // 包含项目中 src 目录下的所有文件
+    ],
+    "exclude": [
+      "node_modules", // 排除 node_modules 目录
+      "dist"
+    ]
+  }
+  

@@ -1,0 +1,79 @@
+  .mask {
+    background-color: rgba(0, 0, 0, .6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+  }
+
+  .main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  text {
+    font-weight: bolder;
+  }
+  
+  @keyframes letter {
+    0% {
+      font-size: 30px;
+    }
+  
+    50% {
+      font-size: 40px;
+    }
+  
+    100% {
+      font-size: 30px;
+    }
+  }
+  
+  .letter {
+    animation: letter 1s infinite;
+    color: #fff;
+  }
+  
+  .letter1 {
+    animation-delay: 0s;
+  }
+  
+  .letter2 {
+    animation-delay: -0.9s;
+  }
+  
+  .letter3 {
+    animation-delay: -0.8s;
+  }
+  
+  .letter4 {
+    animation-delay: -0.7s;
+  }
+  
+  .letter5 {
+    animation-delay: -0.6s;
+  }
+  
+  .letter6 {
+    animation-delay: -0.5s;
+  }
+  
+  .letter7 {
+    animation-delay: -0.4s;
+  }
+  
+  .letter8 {
+    animation-delay: -0.3s;
+  }
+  
+  .letter9 {
+    animation-delay: -0.2s;
+  }
+  
+  .letter10 {
+    animation-delay: -0.1s;
+  }
