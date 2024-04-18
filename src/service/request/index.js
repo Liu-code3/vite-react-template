@@ -12,7 +12,7 @@ class XMRequest {
         this.instance.interceptors.request.use(config => {
             return config
         }, err => {
-            Promise.reject(err)
+            return Promise.reject(err)
         })
 
         this.instance.interceptors.response.use(res => {
