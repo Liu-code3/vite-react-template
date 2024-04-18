@@ -26,7 +26,9 @@ pnpm run dev (启动服务)
 * react-redux: @9.1.1
 * @reduxjs/toolkit: @2.2.3
 * react-router-dom: @6.22.3
+* axios: @1.6.8
 * antd: @5.16.2
+* unocss: @0.59.3
 
 - [vite](https://vitejs.dev/) Next Generation Frontend Tooling
 - [react](https://react.dev/) The library for web and native user interfaces
@@ -34,4 +36,6 @@ pnpm run dev (启动服务)
 - [react-redux](https://react-redux.js.org/) Official React bindings for Redux
 - [@reduxjs/toolkit](https://redux-toolkit.js.org/) The official, opinionated, batteries-included toolset for efficient Redux development
 - [react-router-dom](https://reactrouter.com/en/main) VS [react-router](https://reactrouter.com/en/main)
+- [axios](https://www.axios-http.cn/) Axios 使用简单,包尺寸小且提供了易于扩展的接口。
 - [antd](https://ant-design.antgroup.com/index-cn)
+- [unocss](https://unocss.dev/) Instant On-demand Atomic CSS Engine

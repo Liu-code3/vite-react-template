@@ -3,6 +3,7 @@ import { Navigate } from 'react-router-dom';
 
 const Home = React.lazy(() => import('@/views/home/index'))
 const Entire = React.lazy(() => import('@/views/entire/index'))
+const Detail = React.lazy(() => import('@/views/detail/index'))
 
 export const routes = [
     {
@@ -16,5 +17,9 @@ export const routes = [
     {
         path: '/entire',
         element: <Entire />
+    },
+    {
+        path: '/detail',
+        element: <Detail />
     }
 ]
