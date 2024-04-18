@@ -13,7 +13,7 @@ const Home = memo(() => {
 
   return (
     <div>
-      <h2>Home</h2>
+      <h2 className="color-red">Home</h2>
       <span>name: { userInfo.name }</span>
       <span>age: { userInfo.age }</span>
       <button onClick={changeAge}>+1</button>
